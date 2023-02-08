@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaGithub, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/Fa';
+import { FaGithub, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -9,11 +9,8 @@ const Footer = () => {
             <div className='bg-violet-800 w-full flex md:flex-row flex-col  justify-around items-start p-20 '>
                 <div grid grid-cols-4 gap-6>
                     <ul>
-                        <div>
-                            <Image src="/assets/icon/LogoWhite.svg" width={'25'} height={'4'} className='w-36' alt='/' />
-                           
+                            <Image src="/assets/icon/LogoWhite.svg" width={'25'} height={'4'} className='w-36' alt='/' /> 
                             <p className='text-slate-400 text-xl tracking-tight mx-12 pb-3'>We take care of your health with <br /> regular and fun exercise</p>
-                        </div>
                         <div className='flex mx-12  gap-6 pb-6'>
                             <FaLinkedinIn className='text-2xl cursor-pointer hover:text-green-600' />
                             <FaInstagram className='text-2xl cursor-pointer hover:text-yellow-600' />
