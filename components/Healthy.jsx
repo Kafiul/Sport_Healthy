@@ -5,17 +5,17 @@ import React from 'react'
 const Healthy = () => {
   return (
     <div>
-      <div className='w-full m-auto md:h-screen items-center ml-16 pt-14 '>
-        <div className='md:grid grid-cols-2 pl-8 gap-4 max-w-[1240px]'>
+      <div className='w-full md:h-screen items-center mx-16 pt-8 '>
+        <div className='md:grid grid-cols-2 pl-8 gap-8  max-w-[1240px]'>
           <div className='tracking-widest text-7xl '>
             <h1 className=''>Healthy in side fresh out side</h1>
           </div>
-          <div className='tracking-wider text-base '>
+          <div className='tracking-wider text-base pt-4  '>
             <p>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p>
           </div>
         </div>
         <div className='pt-24 mx-20'>
-          <div className='bg-indigo-400  h-52  rounded-3xl '>
+          <div className='bg-indigo-400 rounded-3xl '>
             <div className='grid grid-cols-3 lg:gap-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center  '>
               <div className='py-10 '>
                 <div className='overflow-hidden flex '>
