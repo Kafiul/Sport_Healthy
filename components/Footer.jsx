@@ -10,7 +10,7 @@ const Footer = () => {
                 <div grid grid-cols-4 gap-6>
                     <ul>
                         <div>
-                            <Image src="/assets/icon/LogoWhite.svg" width={'25'} height={'4'} className='w-36' />
+                            <Image src="/assets/icon/LogoWhite.svg" width={'25'} height={'4'} className='w-36' alt='/' />
                            
                             <p className='text-slate-400 text-xl tracking-tight mx-12 pb-3'>We take care of your health with <br /> regular and fun exercise</p>
                         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
                 <div className="p-5 flex">
                     <ul>
-                        <p className="text-white font-bold pb-4">About Us</p>
+                         <p className="text-white font-bold pb-4">About Us</p>
                         <li className='text-slate-400 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer '>Support</li>
                         <li className='text-slate-400 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer '>Contact</li>
                         <li className='text-slate-400 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer '>Address</li>
