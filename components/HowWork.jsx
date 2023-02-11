@@ -33,7 +33,7 @@ const HowWork = () => {
 
 
             <div className='p-16'>
-                <div className='grid grid-cols-3 gap-12 pl-6'>
+                <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-12 pl-6'>
                     <div className='flex '>
                         <div className=' flex justify-center rounded-full bg-sky-500 w-20 h-20'>
                             <Image src='/assets/icon/ABS.svg' width={'45'} height={'45'}  className='w-10' alt="" />
@@ -105,7 +105,7 @@ const HowWork = () => {
                     <h1 className='text-7xl '>Testimonials</h1>
                 </div>
 
-                <div className='grid grid-cols-2 lg:gap-6 mx-20 gap-'> 
+                <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:gap-6 mx-20 gap-'> 
                     <div className='py-10'> 
                         <div className='rounded overflow-hidden shadow-lg bg-slate-50 p-8'>
                         <p className='p-8'>    <span className='text-4xl'> "</span>It's great to be able to work out from home and be helped by the gymbaran. My day feels fresher when I regularly participate in this fun sport. Good luck to the coaches.</p>
